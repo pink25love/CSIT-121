@@ -1,0 +1,56 @@
+
+
+
+body {
+
+	background-color: hotpink;
+	background-image: linear-gradient(hotpink,white,black,deeppink);
+}
+
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+}
+
+h1{
+	color:white;
+	text-decoration: underline;
+	margin:30px;
+	font-family: fantasy;
+	background-color: black;
+	text-transform: capitalize;
+	background:url("images/leopardpink.jpg");
+	box-shadow:10px 10px 10px white;
+
+}
+
+
+h2{
+	color: rebeccapurple;
+	background-color: white;
+	font-family: serif;
+}
+
+p{
+	color:limegreen;
+	background: yellow;
+}
+
+li{
+	font-family: monospace;
+	background-color: blueviolet;
+
+}
+
+h3{
+	background-color: indianred;
+	font-family:sans-serif;
+}
+
+
+
+
+</html>
