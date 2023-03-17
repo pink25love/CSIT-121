@@ -1,0 +1,48 @@
+body{
+	background:url("images/pinkpattern.jpg");
+}
+
+header{
+	background-color: deeppink;
+	color:whitesmoke;
+	padding:50px;
+	border-radius: 25px;
+}
+
+#naviagtion{
+	font-weight: 900;
+	text-align: center;
+
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: darkviolet;
+
+}
+
+img{
+	float: left;
+	border: 15px solid purple;
+	padding: 10px;
+
+}
+
+p{
+	font-family: serif;
+	font-weight: 700;
+}
+
+#case{
+	text-align: right;
+	background-color: white;
+	border: 15px solid purple;
+	padding: 10px;
+
+}
+
+footer{
+ 	text-align: center;
+ }
+
