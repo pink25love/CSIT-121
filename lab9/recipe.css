@@ -1,0 +1,176 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  width: 30%;
+  height: 200px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .item {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  body {
+    font-size: 14px;
+  }
+  
+  header {
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #ccc;
+  }
+}
+
+
+.container{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+
+
+body {
+
+	background-color: hotpink;
+	background-image: linear-gradient(hotpink,white,black,deeppink);
+}
+
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+}
+
+h1{
+	color:white;
+	text-decoration: underline;
+	margin:30px;
+	font-family: fantasy;
+	background-color: black;
+	text-transform: capitalize;
+	background:url("images/leopardpink.jpg");
+	box-shadow:10px 10px 10px white;
+
+}
+
+
+h2{
+	color: rebeccapurple;
+	background-color: white;
+	font-family: serif;
+}
+
+h4{
+	color:limegreen;
+	background: yellow;
+}
+
+li{
+	font-family: monospace;
+	background-color: blueviolet;
+	color: hotpink;
+
+}
+
+h3{
+	background-color: indianred;
+	font-family:sans-serif;
+}
+
+a:link {
+	color: skyblue;
+	text-decoration: none;
+}
+a:visited {
+	color: pink;
+}
+
+a:hover{
+	color:black;
+	text-decoration: underline;
+}
+
+
+.side{
+	display: inline-block;
+	border: 10px solid deeppink;
+	padding: 2rem 2rem;
+	vertical-align: middle;
+}
+
+.image{
+	display:inline-block;
+	border:10px solid rebeccapurple;
+	padding: 2rem 2rem;
+	vertical-align: middle;
+}
+
+.nutrition-facts {
+  width: 300px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 5px solid white; 
+}
+
+td {
+  padding: 5px;
+  font-size: 14px;
+  border: 5px solid white;
+  color: white;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+  color: purple;
+}
+
+.footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+  color: pink;
+}
+
+tr:hover{
+background-color: purple;
+}
+
+tr:nth-child(even) {
+  background-color: #333;
+}
+
+.contact-form {
+  background-color: white;
+  color: hotpink; 
+  padding: 20px; 
+  border-radius: 20px;
+  
+}
+
+
+
+
